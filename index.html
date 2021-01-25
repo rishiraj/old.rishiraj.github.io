@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="/manifest.json">
 
 <!-- Begin Jekyll SEO tag v2.5.0 -->
 <title>Rishiraj Acharya detected! 🎉 | rishiraj.github.io</title>
@@ -254,6 +255,12 @@ September 2019 – Present</p>
       </footer>
     </div>
     <script src="/js/scale.fix.js"></script>
+    
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/service-worker.js');
+      }
+    </script>
     
   </body>
 </html>
