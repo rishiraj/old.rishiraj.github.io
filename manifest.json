@@ -2,7 +2,18 @@
   "name": "Rishiraj Acharya",
   "short_name": "Rishiraj Acharya",
   "start_url": "/",
-  "icons": [],
+  "icons": [
+    {
+      "src": "/images/icons-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
   "theme_color": "#000000",
   "background_color": "#FFFFFF",
   "display": "fullscreen",
