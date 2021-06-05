@@ -37,12 +37,13 @@
   border: 1px solid #505050;
   background-color: #2e2e2e;
 }
-.bitcoin-text a {
+/* .bitcoin-text a {
   color: #fff;
 }
 .bitcoin-text a:hover {
   color: #2e2e2e;
-}
+} */
 .bitcoin-text:hover {
+  color: #2e2e2e;
   background-color: #fff;
 }
