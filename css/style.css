@@ -42,9 +42,7 @@
 .bitcoin-text a:hover {
   color: #d63600;
 }
-.bitcoin-text span {
-  display: none;
-}
+
 @media (max-width: 480px) {}
 @media (max-width: 380px) {
   .bitcoin {
@@ -57,23 +55,6 @@
   }
 }
 
-@font-face {
-  font-family: "Flaticon";
-  src: url("https://1337x.to/css/webfonts/Flaticon.eot");
-  src: url("https://1337x.to/css/webfonts/Flaticon.eot?#iefix") format("embedded-opentype"),
-       url("https://1337x.to/css/webfonts/Flaticon.woff") format("woff"),
-       url("https://1337x.to/css/webfonts/Flaticon.ttf") format("truetype"),
-       url("https://1337x.to/css/webfonts/Flaticon.svg#Flaticon") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: "Flaticon";
-    src: url("https://1337x.to/css/webfonts/Flaticon.svg#Flaticon") format("svg");
-  }
-}
 [class^="flaticon-"],
 [class*="flaticon-"]{   
   font-family: Flaticon;
@@ -88,4 +69,14 @@
   -moz-font-kerning: auto;
 }
 
-.flaticon-bitcoin:before { content: "\f112"; }
+.flaticon-bitcoin:before {
+  font-family: "Flaticon";
+  src: url("https://1337x.to/css/webfonts/Flaticon.eot");
+  src: url("https://1337x.to/css/webfonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("https://1337x.to/css/webfonts/Flaticon.woff") format("woff"),
+       url("https://1337x.to/css/webfonts/Flaticon.ttf") format("truetype"),
+       url("https://1337x.to/css/webfonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  content: "\f112";
+}
