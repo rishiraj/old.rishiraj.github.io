@@ -2,7 +2,7 @@
 /* BITCOIN
 --------------------------------------------------------------------------*/
 .bitcoin {
-  width: 414px;
+  width: 294px;
   margin: 20px auto 0;
   position: relative;
 }
@@ -26,12 +26,12 @@
   background-color: #f9a644;
 }
 .bitcoin-text {
-  padding: 6px 20px 8px 55px;
+  padding: 6px 12px 8px 43px;
   display: block;
   min-height: 37px;
   color: #fff;
   text-align: left;
-  font-size: 15px;
+  font-size: 13px;
   border-radius: 20px;
   border: 1px solid #505050;
   background-color: #2e2e2e;
@@ -43,12 +43,6 @@
   color: #d63600;
 }
 @media (max-width: 480px) {
-  .bitcoin {
-    width: 294px;
-  }
-  .bitcoin-text {
-    padding: 6px 12px 8px 43px;
-  }
   .bitcoin-text span {
     display: none;
   }
@@ -58,7 +52,6 @@
     width: 270px;
   }
   .bitcoin-text {
-    font-size: 13px;
     width: 100%;
     padding-left: 50px;
     padding-top: 8px;
