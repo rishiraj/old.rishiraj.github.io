@@ -40,7 +40,9 @@
 .bitcoin-text a {
   color: #fff;
 }
-.bitcoin-text:hover {
+.bitcoin-text a:hover {
   color: #2e2e2e;
+}
+.bitcoin-text:hover {
   background-color: #fff;
 }
