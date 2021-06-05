@@ -2,7 +2,7 @@
 /* BITCOIN
 --------------------------------------------------------------------------*/
 .bitcoin {
-  width: 294px;
+  width: 414px;
   margin: 20px auto 0;
   position: relative;
 }
@@ -26,12 +26,13 @@
   background-color: #f9a644;
 }
 .bitcoin-text {
-  padding: 6px 12px 8px 43px;
+  padding: 6px 20px 8px 55px;
   display: block;
   min-height: 37px;
   color: #fff;
   text-align: left;
-  font-size: 13px;
+  font-size: 15px;
+  font-family: 'Oswald Regular';
   border-radius: 20px;
   border: 1px solid #505050;
   background-color: #2e2e2e;
@@ -41,16 +42,4 @@
 }
 .bitcoin-text a:hover {
   color: #d63600;
-}
-
-@media (max-width: 480px) {}
-@media (max-width: 380px) {
-  .bitcoin {
-    width: 270px;
-  }
-  .bitcoin-text {
-    width: 100%;
-    padding-left: 50px;
-    padding-top: 8px;
-  }
 }
