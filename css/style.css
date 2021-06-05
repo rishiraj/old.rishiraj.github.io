@@ -27,11 +27,11 @@
   text-align: center;
 }
 .bitcoin-text {
-  padding: 8px 20px 8px 0px;
+  padding: 8px 20px 8px 50px;
   display: block;
   /* min-height: 37px; */
   color: #fff;
-  text-align: right;
+  text-align: center;
   font-size: 15px;
   border-radius: 20px;
   border: 1px solid #505050;
