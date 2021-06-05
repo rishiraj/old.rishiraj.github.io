@@ -42,11 +42,10 @@
 .bitcoin-text a:hover {
   color: #d63600;
 }
-@media (max-width: 480px) {
-  .bitcoin-text span {
-    display: none;
-  }
+.bitcoin-text span {
+  display: none;
 }
+@media (max-width: 480px) {}
 @media (max-width: 380px) {
   .bitcoin {
     width: 270px;
