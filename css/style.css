@@ -54,29 +54,3 @@
     padding-top: 8px;
   }
 }
-
-[class^="flaticon-"],
-[class*="flaticon-"]{   
-  font-family: Flaticon;
-  font-size: 20px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  text-decoration: inherit;
-  text-transform: none;
-  font-kerning: auto;
-  -webkit-font-kerning: auto;
-  -moz-font-kerning: auto;
-}
-
-.flaticon-bitcoin:before {
-  font-family: "Flaticon";
-  src: url("https://1337x.to/css/webfonts/Flaticon.eot");
-  src: url("https://1337x.to/css/webfonts/Flaticon.eot?#iefix") format("embedded-opentype"),
-       url("https://1337x.to/css/webfonts/Flaticon.woff") format("woff"),
-       url("https://1337x.to/css/webfonts/Flaticon.ttf") format("truetype"),
-       url("https://1337x.to/css/webfonts/Flaticon.svg#Flaticon") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  content: "\f112";
-}
